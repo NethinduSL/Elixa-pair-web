@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
       "start": "pm2 start index.js --deep-monitoring --attach --name Elixa",
-      "stop": "pm2 stop prabath",
-     "restart": "pm2 restart prabath"
+      "stop": "pm2 stop elixa",
+     "restart": "pm2 restart elixa"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
